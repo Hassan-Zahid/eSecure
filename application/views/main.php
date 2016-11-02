@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<h1>Secure your data here</h1>
 	        	<p class="lead">Type your text in the textarea and click Secure to proceed</p>
 	        	<textarea class="form-control my-text" placeholder="Type your text here"></textarea>
-	        	<button class="btn btn-large btn-success" id="secure">Secure</button>
+	        	<button class="btn btn-large btn-success display-none" id="secure">Secure</button>
 	      	</div>
 
 	      	<hr>

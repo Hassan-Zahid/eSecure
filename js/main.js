@@ -24,7 +24,14 @@ $(document).ready(function (){
 		});
 	});
 
-
+	$('.my-text').keyup(function(){
+		if($('.my-text').val().length>0){
+			$('#secure').fadeIn();
+		}
+		else{
+			$('#secure').fadeOut();	
+		}
+	});
 	$('#login-form').submit(function(){
 		$.ajax({
 		    url: base_url+"main/authenticate",
