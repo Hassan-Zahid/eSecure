@@ -12,8 +12,8 @@ esecure
 *******************
 Tables
 *******************
--  `admins`_
--  `security_tokens`_
+-  admins
+-  security_tokens
 
 *******************
 Other Details
